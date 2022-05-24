@@ -1,0 +1,19 @@
+#box1{
+animation: mymove 3s infinite alternate ease-in-out ;
+}
+#box2{
+animation: mymove 2s infinite alternate ease-in-out ;
+}
+
+#box3{
+animation: mymove 1s infinite alternate ease-in-out ;
+}
+
+@keyframes mymove{
+from{visibility: hidden}
+50%{visibility: hidden}
+to{visibility: visible}
+
+}
+
+

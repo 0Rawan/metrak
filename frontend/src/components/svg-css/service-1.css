@@ -1,0 +1,65 @@
+#head1, #lef-arm, #right-arm{
+animation: mymove 1s infinite alternate  ease-in-out ;
+}
+
+#white-light{
+animation : changecolorWhite 1s infinite alternate ;
+fill:#E6E6E6
+}
+
+@keyframes mymove{
+
+from{transform: translateY(-8px)}
+to{transform: translateY(8px)}
+}
+
+@keyframes changecolorWhite{
+
+from{fill:#E6E6E6 }
+to{fill:#F27A1A}
+
+}
+
+
+#opject, #head{
+animation: putdown 2s infinite alternate ease-in-out ;
+}
+
+
+@keyframes putdown{
+from{transform: rotateX(0)}
+to{transform: rotate(3deg)}
+
+}
+
+
+#box1{
+animation: hideShow 3s infinite alternate ease-in-out ;
+}
+#box2{
+animation: hideShow 2s infinite alternate ease-in-out ;
+}
+
+#box3{
+animation: hideShow 1s infinite alternate ease-in-out ;
+}
+
+@keyframes hideShow{
+from{visibility: hidden}
+50%{visibility: hidden}
+to{visibility: visible}
+
+}
+
+
+#girl	{
+animation: moveLittle 2s infinite alternate ease-in-out ;
+}
+
+
+@keyframes moveLittle{
+from{transform: rotateX(0)}
+to{transform: rotate(0.25deg)}
+
+}
+

@@ -1,0 +1,10 @@
+#Group1{
+animation: mymove 2s infinite alternate ease-in-out ;
+}
+
+
+@keyframes mymove{
+from{transform: rotateX(0)}
+to{transform: rotate(0.25deg)}
+
+}
