@@ -24,14 +24,18 @@ const Header = () => {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">	
+    <LinkContainer to="/">
       <Nav.Link href="#home">الرئيسية</Nav.Link>
+      </LinkContainer>
     
       
         <NavDropdown title="معلومات عامة" id="collasible-nav-dropdown">
         <LinkContainer to='/faq'>
         <NavDropdown.Item >الاسئلة الشائعة</NavDropdown.Item>
         </LinkContainer>
+        {/*
         <NavDropdown.Item href="#action/3.2">محول العملات</NavDropdown.Item>
+        */}
         <LinkContainer to='/how-to-order'>
         <NavDropdown.Item href="#action/3.2">كيفية الطلب</NavDropdown.Item>
         </LinkContainer>
