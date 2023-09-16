@@ -1,10 +1,10 @@
 <br/>
 <p align="center">
   <a href="https://github.com/0Rawan/metrak">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+     <h3 align="center">Metrak</h3>
   </a>
 
-  <h3 align="center">Metrak</h3>
+ 
 
   <p align="center">
     Welcome to our MERN stack-powered web service project! We've built a feature-rich web application that caters to our customers' needs using the modern and robust MERN stack. Here's a brief overview of what we've accomplished:
